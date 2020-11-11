@@ -5,7 +5,9 @@
 
 2. Copy the AWS Market place link from the Error seen on the Web Shell
 
-3. Subscribe to the F5 BIG-IP Virtual Edition - BEST (PAYG, 25Mbps) and  Hit Accept
+3. Open a new browser and paste the link from step 2
+
+4. Subscribe to the F5 BIG-IP Virtual Edition - BEST (PAYG, 25Mbps) and  Hit Accept
 
 
    ![alt text](../../../images/pay1.png)
