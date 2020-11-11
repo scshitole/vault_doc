@@ -7,7 +7,7 @@
 
  ![alt text](../images/less1-4.png)
 
-5. After logging in udf change directory ```cd bigip-vault```
+5. After logging in udf change directory ```cd consul-tg-env/`
 
 [GoTo Next Exercise-2](2-ex)
 
