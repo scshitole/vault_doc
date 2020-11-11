@@ -1,6 +1,7 @@
 # BIG-IP HashiCorp Vault Integration
 
- - [Exercise 1.0 - Access UDF](1-ex)   
- - [Exercise 2.0 - Access UDF](1-ex/2-ex)   
+ - [Exercise 1.0 - How to Access UDF](1-ex)   
+ - [Exercise 2.0 - Setup AWS Access Key & Secret Key](1-ex/2-ex)   
+ - [Exercise 2.0 - Setup AWS Access Key & Secret Key](1-ex/2-ex/3-ex)   
 
 
