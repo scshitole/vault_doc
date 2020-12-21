@@ -15,20 +15,8 @@
 
 5. Now Configure the following
 ```export VAULT_ADDR=http://127.0.0.1:8200```
-then do 
-```vault status```
-Key             Value
----             -----
-Seal Type       shamir
-Initialized     true
-Sealed          false
-Total Shares    1
-Threshold       1
-Version         1.5.0
-Cluster Name    vault-cluster-1e807b0d
-Cluster ID      6ae06394-1e80-8e5f-8e07-ae356446daa3
-HA Enabled      false
-ubuntu@ip-10-0-0-100:~$ ```
+
+then do  ```vault status```
 
 
    ![alt text](../../../../../images/ssh2.png)
