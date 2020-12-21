@@ -24,6 +24,6 @@
    ![alt text](../../../../../../images/cfg1.png)
    ![alt text](../../../../../../images/cfg2.png)
 
-[GoTo Next Exercise-6](7-ex)
+[GoTo Next Exercise-7](7-ex)
 
 [GoBack](../README.md)
