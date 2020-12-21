@@ -1,27 +1,29 @@
-# Login into the Vault Server
+# Configure Vault Parameters
 
 
-1. Open the Web Shell if not open  and login to udf/udf
+1. While you are already ssh to Vault server
 
-2. Change the directory ```cd bigip-vault```
+2. Issue the commands
+# Change the Dir to tmp as we have policy files located in the same directory
+``` cd/tmp``` 
+# Export the root token 
+```export VAULT_TOKEN=root```
+# PKI we have enabled in the vault.sh, here you are creating the role called web-certs domain name, TTL of 160s, this means the token will expire in 160secs 
+```vault write pki/roles/web-certs allowed_domains=demof5.com ttl=160s max_ttl=30m allow_subdomains=true ```
+# Enable the Approle Security Engine, usually used for machine to machine authentication or app authentication.
+```vault auth enable approle```
+# Here we are uploading the app policy to vault from temp directory
+```vault policy write app-pol app-pol.hcl```
+# Apply the policy to the app role
+```vault write auth/approle/role/web-certs policies="app-pol"```
+# Create the roleID from vault
+```vault read -format=json auth/approle/role/web-certs/role-id | jq -r '.data.role_id' > roleID```
+# Create the sceret ID from Vault
+```vault write -f -format=json auth/approle/role/web-certs/secret-id | jq -r '.data.secret_id' > secretID```
 
-3. Run ```terraform output``` if you don't see the ssh details of ubuntu
+   ![alt text](../../../../../../images/cfg1.png)
+   ![alt text](../../../../../../images/cfg2.png)
 
-   ![alt text](../../../../../images/ssh1.png)
-
-4. Run ```vault status``` you will see this error 
-
-``` Error checking seal status: Get "https://127.0.0.1:8200/v1/sys/seal-status": http: server gave HTTP response to HTTPS client```
-
-5. Now Configure the following
-```export VAULT_ADDR=http://127.0.0.1:8200```
-
-then do  ```vault status```
-
-
-   ![alt text](../../../../../images/ssh2.png)
-
-
-[GoTo Next Exercise-6](6-ex)
+[GoTo Next Exercise-6](7-ex)
 
 [GoBack](../README.md)
