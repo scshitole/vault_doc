@@ -25,6 +25,6 @@ Check below the certificates are being rotated every 160 secs
 
 ![alt text](../../../../../../../../../../../../../../../images/bigip.png)
 
-[GoTo Back to  Exercise-1](../../../../../../../../../../../../../../../1-ex)
+[GoTo Back to  Exercise-1](../../../../../../../../../../../../../../1-ex)
 
 [GoBack](../README.md)
