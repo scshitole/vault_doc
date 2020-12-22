@@ -1,16 +1,25 @@
-# Finally run the Vaul Agent file
+# Check BIG-IP Config
 
-1. Run the Agent file now this will dynamically update the SSL certificates for every 160 secs for ever !!!!!
-As long as the script is running on the ubuntu server.
-Run the Agent ```vault agent -config=agent-config.hcl -log-level=debug```
+1. Open another web shell on the ubuntu server
+login as ```udf```
+password ```udf```
 
-![alt text](../../../../../../../../../../../../../../images/forver1.png)
+2. Change directory to bigip-vault
+```cd bigip-vault```
+and execute
 
-2. Lets review the updt.sh script
+```terraform output```
 
-   ![alt text](../../../../../../../../../../../../../../images/forver2.png)
+```terraform output```
+```F5_Password = BYgGlZroyQ```
+```To_SSH_into_vault_ubuntu = ssh -i``` ```terraform-20201222003422297000000001.pem``` ```ubuntu@54.147.163.209```
+```f5_ui = https://54.243.26.27:8443```
+```vault_ui = http://54.147.163.209:8200```
 
- 
-[GoTo Next Exercise-15](15-ex)
+USe the F5 BIG-IP address to login into BIG-IP
+
+![alt text](../../../../../../../../../../../../../../../images/bigip.png)
+
+[GoTo Next Exercise-1](1-ex)
 
 [GoBack](../README.md)
