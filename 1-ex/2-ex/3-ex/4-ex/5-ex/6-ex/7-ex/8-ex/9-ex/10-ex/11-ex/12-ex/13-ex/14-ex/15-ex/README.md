@@ -21,6 +21,8 @@ password ```udf```
 
 USe the F5 BIG-IP address to login into BIG-IP
 
+Check below the certificates are being rotated every 160 secs
+
 ![alt text](../../../../../../../../../../../../../../../images/bigip.png)
 
 [GoTo Next Exercise-1](1-ex)
