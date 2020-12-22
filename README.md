@@ -14,5 +14,5 @@
  - [Exercise 12.0 - Review the Cert.Json file created ](1-ex/2-ex/3-ex/4-ex/5-ex/6-ex/7-ex/8-ex/9-ex/10-ex/11-ex/12-ex)
  - [Exercise 13.0 - Update the Vault Agent file ](1-ex/2-ex/3-ex/4-ex/5-ex/6-ex/7-ex/8-ex/9-ex/10-ex/11-ex/12-ex/13-ex)
  - [Exercise 14.0 - Finally run the Vault Agent file… ](1-ex/2-ex/3-ex/4-ex/5-ex/6-ex/7-ex/8-ex/9-ex/10-ex/11-ex/12-ex/13-ex/14-ex)
- - [Exercise 15.0 - Check BIG-IP Configuration ](1-ex/2-ex/3-ex/4-ex/5-ex/6-ex/7-ex/8-ex/9-ex/10-ex/11-ex/12-ex/13-3x/14-ex/15-ex)
+ - [Exercise 15.0 - Check BIG-IP Configuration ](1-ex/2-ex/3-ex/4-ex/5-ex/6-ex/7-ex/8-ex/9-ex/10-ex/11-ex/12-ex/13-ex/14-ex/15-ex)
 
