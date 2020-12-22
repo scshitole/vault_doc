@@ -9,7 +9,7 @@
 3. Export the root token 
 ```export VAULT_TOKEN=root```
 4. PKI we have enabled in the vault.sh, here   you are creating the role called web-certs domain name, TTL of 160s, this means the token will expire in 160secs 
-```vault write pki/roles/web-certs allowed_domains=demof5.com ttl=160s max_ttl=30m allow_subdomains=true ```
+```vault write pki/roles/web-certs allowed_domains=demo.com ttl=160s max_ttl=30m allow_subdomains=true ```
 5. Enable the Approle Security Engine, usually used for machine to machine authentication or app authentication.
 ```vault auth enable approle```
 6. Here we are uploading the app policy to vault from temp directory
