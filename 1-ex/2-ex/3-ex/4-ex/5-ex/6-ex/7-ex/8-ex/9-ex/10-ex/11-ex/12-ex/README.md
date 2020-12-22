@@ -1,5 +1,5 @@
 # Review the Cert.Json file created
-1. Review the JSON file which got created dynamically
+1. Review the JSON file certs.json which got created dynamically
 
    ![alt text](../../../../../../../../../../../../images/certp.png)
 
