@@ -1,4 +1,4 @@
-# Check BIG-IP Config
+# Check BIG-IP Configuration
 
 1. Open another web shell on the ubuntu server
 login as ```udf```
