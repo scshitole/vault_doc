@@ -1,4 +1,4 @@
-# Finally run the Vaul Agent file
+# Finally run the Vaul Agent file...
 
 1. Run the Agent file now this will dynamically update the SSL certificates for every 160 secs for ever !!!!!
 As long as the script is running on the ubuntu server.
