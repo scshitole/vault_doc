@@ -8,7 +8,7 @@
  
    ![alt text](../../../../../../../../../../../images/http.png)
 
-4. Execute the bash stuff.sh to deploy AS3
+4. Execute the bash stuff.sh to deploy AS3 on BIG-IP
 
    ![alt text](../../../../../../../../../../../images/stuff.png)
 
