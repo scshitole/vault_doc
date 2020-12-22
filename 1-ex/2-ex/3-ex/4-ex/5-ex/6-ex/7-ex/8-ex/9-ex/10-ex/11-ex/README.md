@@ -8,6 +8,8 @@
  
    ![alt text](../../../../../../../../../../../images/http.png)
 
+4. Execute the bash stuff.sh to deploy AS3
+
    ![alt text](../../../../../../../../../../../images/stuff.png)
 
 [GoTo Next Exercise-12](12-ex)
