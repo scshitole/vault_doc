@@ -5,10 +5,9 @@
 
 2. Issue the commands
  
-``` cd/tmp```
-``` cat agent-config.hcl```
-
-```  
+``` cd /tmp
+    cat agent-config.hcl```
+ 
 pid_file = "./pidfile"
 
 vault {
