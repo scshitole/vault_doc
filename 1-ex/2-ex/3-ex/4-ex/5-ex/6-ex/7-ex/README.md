@@ -8,7 +8,7 @@
 ``` cd/tmp```
 ``` cat agent-config.hcl```
 
-  
+```  
 pid_file = "./pidfile"
 
 vault {
@@ -42,6 +42,7 @@ template {
     source = "./https.tmpl"
     destination = "./https.json"
 }
+```
 ubuntu@ip-10-0-0-100:/tmp$ 
 
    ![alt text](../../../../../../../images/hcl.png)
