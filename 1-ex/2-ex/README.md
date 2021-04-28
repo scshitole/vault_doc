@@ -1,7 +1,7 @@
 # Setup AWS Access Key & Secret Key
 
 
-1. Click on “Cloud Accounts” tab on the UDF Blue print
+1. Click on ###Cloud Accounts## tab on the UDF Blue print
 
 2. Copy the API Key & API Secret key
 
