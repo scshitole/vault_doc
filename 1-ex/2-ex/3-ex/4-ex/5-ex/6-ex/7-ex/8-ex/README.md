@@ -1,4 +1,11 @@
 # Review the /tmp directory
+Below is the agent file which we will be running, this has three main stanza
+
+### vault
+This points to the vault IP address
+
+### auto_auth
+We are using auth method in Vault as ```approle``` this is primarily use for app to app authentication, it uses ```roleID``` and ```secretID```these act like username and password to authenticate to vault. Once you get authenticated vault will provide the ```appRoleToken```
 
    ![alt text](../../../../../../../../images/hcl.png)
 
