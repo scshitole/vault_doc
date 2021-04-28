@@ -3,7 +3,7 @@
 
 1. Click on **Cloud Accounts** tab on the UDF Blue print
 
-2. Copy the **API Key & API** Secret key
+2. Copy the **API Key** & **API Secret key**
 
 3. Go to the ubuntu UDF Shell and configure the following
 
@@ -14,6 +14,8 @@
 
     AWS Secret Access Key [****************QmTY]:XXXXXXXXXXX
 ```
+you can also export the keys if you wish.
+
 4. Execute 
 ``` git clone https://github.com/f5devcentral/f5-certificate-rotate.git ```
 
