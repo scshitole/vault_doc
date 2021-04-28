@@ -3,7 +3,7 @@
 
 1. Open the Web Shell if not open  and login to udf/udf
 
-2. Change the directory ```cd bigip-vault```
+2. Change the directory ```cd f5-certificate-rotate```
 
 3. Run ```terraform apply -auto-approve```
 
