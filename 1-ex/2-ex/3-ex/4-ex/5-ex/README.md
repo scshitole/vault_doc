@@ -13,13 +13,13 @@
 
 ``` Error checking seal status: Get "https://127.0.0.1:8200/v1/sys/seal-status": http: server gave HTTP response to HTTPS client```
 
+   ![alt text](../../../../../images/ssh2.png)
+
 5. Now Configure the following
 ```export VAULT_ADDR=http://127.0.0.1:8200```
 
 then do  ```vault status```
 
-
-   ![alt text](../../../../../images/ssh2.png)
 
 
 [GoTo Next Exercise-6](6-ex)
