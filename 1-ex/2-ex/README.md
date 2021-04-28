@@ -14,8 +14,11 @@
 
     AWS Secret Access Key [****************QmTY]:XXXXXXXXXXX
 ```
+4. Execute ``` git clone https://github.com/f5devcentral/f5-certificate-rotate.git ```
 
-4. Change directory to ```cd bigip-vault``` and execute 
+   ![alt text](../../images/terraform0.png)
+   
+5. Change directory to ```cd f5-certificate-rotate ``` and execute 
    ```terraform init```
 
    ```terraform plan```
@@ -28,7 +31,7 @@
 ## Note :: You might get an error 
 ``` Error launching source instance: OptInRequired: In order to use this AWS Marketplace ```
 
-5. Copy the link To do so please visit https://aws.amazon.com/marketplace/pp?sku=3ouya04g99e5euh4vbxtao1jz
+6. Copy the link To do so please visit https://aws.amazon.com/marketplace/pp?sku=3ouya04g99e5euh4vbxtao1jz
 
 7. Login to AWS Console by going to UDF Blueprint –> Cloud Accounts –> Console URL
 
