@@ -1,9 +1,9 @@
 # Setup AWS Access Key & Secret Key
 
 
-1. Click on ###Cloud Accounts## tab on the UDF Blue print
+1. Click on **Cloud Accounts** tab on the UDF Blue print
 
-2. Copy the API Key & API Secret key
+2. Copy the **API Key & API** Secret key
 
 3. Go to the ubuntu UDF Shell and configure the following
 
@@ -14,11 +14,13 @@
 
     AWS Secret Access Key [****************QmTY]:XXXXXXXXXXX
 ```
-4. Execute ``` git clone https://github.com/f5devcentral/f5-certificate-rotate.git ```
+4. Execute 
+``` git clone https://github.com/f5devcentral/f5-certificate-rotate.git ```
 
    ![alt text](../../images/terraform0.png)
    
 5. Change directory to ```cd f5-certificate-rotate ``` and execute 
+
    ```terraform init```
 
    ```terraform plan```
