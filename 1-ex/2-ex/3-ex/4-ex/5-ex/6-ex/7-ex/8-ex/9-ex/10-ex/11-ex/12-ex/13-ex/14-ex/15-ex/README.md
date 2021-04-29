@@ -4,8 +4,8 @@
 login as ```udf```
 password ```udf```
 
-2. Change directory to bigip-vault
-```cd bigip-vault```
+2. Change directory to f5-certificate-rotate
+```cd f5-certificate-rotate```
 
 ```terraform output```
 
