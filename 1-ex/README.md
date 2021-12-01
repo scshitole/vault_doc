@@ -7,8 +7,6 @@
 
  ![alt text](../images/less1-4.png)
 
-5. After logging in udf change directory ```cd f5-certificate-rotate```
-
 [GoTo Next Exercise-2](2-ex)
 
 [GoBack](../README.md)
